@@ -183,6 +183,7 @@ REST_FRAMEWORK = {
 }
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
+    "https://food-bridge-roan-sigma.vercel.app",
 ]
 # Custom User Model
 AUTH_USER_MODEL = 'accounts.User'
